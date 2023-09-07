@@ -1,0 +1,53 @@
+#home-header {
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+}
+
+#home-info {
+  justify-content: center;
+  display: flex;
+}
+
+.home-page {
+  background-color: black;
+  color: azure;
+}
+
+.generator-links {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #ffffff00;
+  color: #fff;
+  border: white;
+  border-style: double;
+  border-width: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.generator-links:hover {
+  transform:  scale(1.1);
+  transition-duration: 0.8s;
+  background-color: rgba(245, 245, 245, 0.092);
+}
+
+.card-body {
+  background-color: rgb(10, 10, 10);
+  border: solid;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: rgb(43, 43, 43);
+}
+
+.card-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  color: white;
+}

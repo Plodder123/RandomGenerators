@@ -1,0 +1,11 @@
+.nav-links {
+color: azure;
+justify-content: space-between;
+margin-left: 165px;
+}
+
+.nav-links:hover {
+  color: black;
+  background-color: azure;
+  transition-duration: 0.5s;
+}

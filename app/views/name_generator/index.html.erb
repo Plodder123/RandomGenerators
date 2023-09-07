@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= javascript_include_tag 'script' %>
+<%= stylesheet_link_tag 'styles' %>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RandomPasswordGenerator</title>
+</head>
+<body id="name-color">
+    <h1 id="name-title">Random Name Generator</h1>
+    <p id="name-message">Click the button below to generate a random name:</p>
+  <div class="name-page">
+    <%# <div class="container name-container" > %>
+    <button id="generate-name">Generate Name</button>
+   <%# </div> %>
+  </div>
+    <p id="random-name"><%= @random_name %></p>
+    <i class="fa-regular fa-copy" id="copy-icon"></i>
+
+<%= javascript_include_tag 'name_generator' %>
+<%= javascript_include_tag 'script' %>
+
+</body>
+</html>

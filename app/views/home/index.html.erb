@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= javascript_include_tag 'script' %>
+<%= stylesheet_link_tag 'styles' %>
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RandomGenerators</title>
+</head>
+
+<body class="home-page">
+  <div class="bk-img">
+  <div class="container">
+    <h1 id="home-header"> Random Generators</h1>
+    <p id="home-info">Please select a random generator</p>
+  </div>
+
+  <div class="container-lg mt-5">
+
+    <div class="row my-5 align-items-center justify-content-center g-0">
+      <div class="col-8 col-lg-4 col-xl-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+            <h3 class="card-title">A Generator For A Random Secure Password</h3>
+           <p class="lead card-subtitle">For Security</p>
+           <%= link_to 'Password Generator', password_generator_path, class: "generator-links btn btn-lg mt-3" %>
+
+         </div>
+       </div>
+     </div>
+
+      <div class="col-9 col-lg-4">
+        <div class="card border-white border-3">
+          <div class="card-header text-center text-white">Most recommended</div>
+            <div class="card-body text-center py-5">
+              <h3 class="card-title">A Colour Generator To Help Visualise And Choose Colours</h3>
+              <p class="lead card-subtitle">Provides rgb</p>
+              <%= link_to 'Colour Generator', color_generator_path, class: "generator-links btn btn-lg mt-3" %>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-4">
+                  <h3 class="card-title">A Generator That Creates Random Names</h3>
+                <p class="lead card-subtitle">Name Suggestions</p>
+                <%= link_to 'Name Generator', name_generator_path, class: "generator-links btn btn-lg mt-3" %>
+              </div>
+            </div>
+          </div>
+
+
+
+
+    </div>
+  </div>
+
+
+  <%= javascript_include_tag 'script' %>
+
+
+</body>
+</html>
